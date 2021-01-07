@@ -32,23 +32,22 @@ footer table tr td
 {   
   font-family : Georgia ;
   vertical-align: middle;
-  color : rgb(0, 0, 0);
+  color : rgb(255, 255, 255);
 }
 
 .plan{
   margin-left: 100px;
   margin-right : 90px;
   font-size: 18px;
-  color: black;
+  color: white;
   width: 16.66%;
   display: flex;
 }
 
-#logos_footer{  /* retravailler les logos + faire une flexbox*/ 
+#logos_footer{                                            /* retravailler les logos + faire une flexbox pour le footer */ 
   vertical-align: middle;
-  
   display: flex;
-  
+  /*flex-grow: 1;*/
 }
 
 #footer1{
@@ -89,7 +88,7 @@ nav ul::after{  /*ce qui se passe directement après ul*/
 nav a{
     display: block;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
