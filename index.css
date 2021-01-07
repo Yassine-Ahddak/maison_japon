@@ -1,11 +1,10 @@
 /* ma réalisation */
 
 html, body {
-  height: 150vh;
+  height: 100vh;
   /*background: linear-gradient(rgb(233, 128, 128), rgb(255, 255, 255));*/
-  background-image: url("image/background.jpg");
-  /*background-image: no-repeat;*/
-  background-image: cover;
+  background-image: url("image/mont-fuji-violet-4k-rose.png");
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -390,7 +389,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 h1 {
-	color: black;
+	color: #f5bff1
 }
 h6 {
 	font-size: 12px;
