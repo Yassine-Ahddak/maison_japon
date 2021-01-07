@@ -24,6 +24,8 @@ button
   margin-left: 400px;
 }
 
+/*footer*/
+
 footer table tr td 
 {   
   font-family : Georgia ;
@@ -36,7 +38,14 @@ footer table tr td
   margin-right : 90px;
   font-size: 18px;
   color: black;
+  width: 16.66%;
 }
+
+.logos_footer{
+  width: 40px;
+  height: 40px;
+}
+
 
 #footer1{
   padding-left : 40px;
