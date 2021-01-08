@@ -40,17 +40,15 @@ footer table tr td
   margin-right : 90px;
   font-size: 18px;
   color: white;
-  width: 16.66%;
-  display: flex;
+  flex-grow: 1;
 }
 
-                                          /* retravailler les logos + faire une flexbox pour le footer */ 
+                                          /* retravailler les logos + ajuster le footer en modifiant la flexbox */ 
 #footer1{
   padding-left : 40px;
   margin-right: 60px;
   margin-bottom: 20px;
   font-size : 18px;
-  display: flex;
 }
 
 
@@ -66,12 +64,12 @@ footer table tr td
 
 #ma-boite div
 {
-    background-color: #FF950E;
-    margin: 1em;
+  background-color: transparent;
+  margin: 1em;
 }
 
-#element2{
-   flex-grow: 1;
+.element2{
+  flex-grow: 0;
 }
 
 
@@ -306,7 +304,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: #ff0000; 
+  background: #ffffff; 
   border-radius: 3px;
   
   z-index: 1;
