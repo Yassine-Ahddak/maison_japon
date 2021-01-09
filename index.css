@@ -59,6 +59,7 @@ footer table tr td
 
 #ma-boite
 {
+  margin-top: 50px;
   display: flex;
   font-family : Georgia ;
   vertical-align: middle;
@@ -413,6 +414,10 @@ h6 {
 	font-size: 12px;
 	color: #FFFFFF;
 }
+
+
+
+
 
 /*test slidershow 2 */
 
