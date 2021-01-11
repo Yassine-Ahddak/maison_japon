@@ -1,17 +1,17 @@
 /* ma réalisation */
-html{
-  background: linear-gradient( rgb(233, 128, 128), rgb(255, 255, 255));
+html, body {
+  height: 100vh;
+  /*background: linear-gradient(rgb(233, 128, 128), rgb(255, 255, 255));*/
+  background-image: url("image/mont-fuji-violet-4k-rose.png");
+  background-size: cover;
+  overflow: hidden;
 }
+
 button
 {
   border: 0px;
   padding: center;
   margin-left: 20px;
-}
-
-header
-{
-  /*background-color: rgb(248, 248, 248);*/
 }
 
 #titre
@@ -25,18 +25,21 @@ header
   margin-left: 400px;
 }
 
+/* ancien footer
+
 footer table tr td 
 {   
   font-family : Georgia ;
   vertical-align: middle;
-  color : rgb(0, 0, 0);
+  color : rgb(255, 255, 255);
 }
-
+*/
 .plan{
   margin-left: 100px;
   margin-right : 90px;
   font-size: 18px;
-  color: black;
+  color: white;
+  flex-grow: 1;
 }
 
 #footer1{
@@ -45,6 +48,33 @@ footer table tr td
   margin-bottom: 20px;
   font-size : 18px;
 }
+
+/*footer{
+  display: table-row;
+  height: 1px;
+}*/
+
+/*New footer avec flexbox : */
+
+#ma-boite
+{
+  margin-top: 50px;
+  display: flex;
+  font-family : Georgia ;
+  vertical-align: middle;
+  color : rgb(255, 255, 255);
+}
+
+#ma-boite div
+{
+  background-color: transparent;
+  margin: 0;
+}
+
+.element2{
+  flex-grow: 0;
+}
+
 /* partie menu déroulant */
 
 nav
