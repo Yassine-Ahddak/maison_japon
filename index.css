@@ -113,12 +113,12 @@ nav a{
     padding: 10px 0px;
     background: black;
     border-radius: 14px;
+    
 }
 
 nav a:hover{   /*lorsqu'on survole un bouton*/
     color: rgba(255, 0, 0, 0.884);
     border-bottom: 2px solid red;
-    
 }
 
 .sous{
@@ -153,6 +153,12 @@ nav > ul li:hover .sous{
   background: black;
   border-radius: 14px;
 }
+/*.sous2
+{
+  font-size: 1.3em;
+  background: black;
+  border-radius: 14px;
+}*/
 .deroulant > a::after{
     content:" ▼";
     font-size: 12px;
@@ -259,7 +265,7 @@ a
 	text-decoration: none;
 	color: #00437c;
 	transition: color 0.3s ease;
-	font-size: 23px;
+  font-size: 23px;
 }
 
 a:hover
