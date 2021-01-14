@@ -26,42 +26,46 @@ button
   margin-left: 400px;
 }
 
-/* ancien footer
 
-footer table tr td 
-{   
-  font-family : Georgia ;
-  vertical-align: middle;
-  color : rgb(255, 255, 255);
-}
-*/
-.plan{
-  margin-left: 100px;
-  margin-right : 90px;
-  font-size: 18px;
+
+
+#boite2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1vh;
+  text-align: right;
   color: white;
-  flex-grow: 1;
+  position: fixed;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 0;
 }
 
-                                          /* retravailler les logos + ajuster le footer en modifiant la flexbox */ 
-#footer1{
-  padding-left : 40px;
-  margin-right: 60px;
-  margin-bottom: 20px;
-  font-size : 18px;
+#boite2 div button {
+  display: inline-block;
+  padding: 2vh 2vh 1vh;
+  border-top: 1px solid white;
 }
-/*footer{
-  display: table-row;
-  height: 1px;
-}*/
 
-/*New footer avec flexbox : */
+.fa, .fab {
+  padding: 2vh;
+  font-size: 4vh;
+  width: 5vh;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover, .fab:hover {
+  opacity: 0.7;
+}
+
+/*Partie footer */
 
 #ma-boite
 {
   margin-top: 50px;
   display: flex;
-  /*display: space-between;*/
+  /*justify-content: space-between;*/
   font-family : Georgia ;
   vertical-align: middle;
   color : rgb(255, 255, 255);
@@ -73,10 +77,21 @@ footer table tr td
   margin: 0;
 }
 
-.element2{
-  flex-grow: 0;
+.plan{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right : 90px;
+  font-size: 18px;
+  color: white;
 }
 
+/*#footer1{
+  padding-left : 40px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  font-size : 18px;
+}*/
 
 /* partie menu déroulant */
 
@@ -117,11 +132,6 @@ nav a{
     
 }
 
-nav a:hover{   /*lorsqu'on survole un bouton*/
-    color: rgba(255, 0, 0, 0.884);
-    border-bottom: 2px solid red;
-}
-
 .sous{
     display: none;
     /*box-shadow: 0px 1px 2px white;*/
@@ -130,6 +140,7 @@ nav a:hover{   /*lorsqu'on survole un bouton*/
     width: 100%;
     z-index: 1000;
 }
+
 nav > ul li:hover .sous{
     display: block;
 }
@@ -149,11 +160,18 @@ nav > ul li:hover .sous{
 }
 .deroulant
 {
+  text-decoration: none;
   margin-left: 100px;
   font-size: 1.3em;
   background: black;
   border-radius: 14px;
 }
+
+nav a:hover{   /*lorsqu'on survole un bouton*/
+  color: rgba(255, 0, 0, 0.884);
+  border-bottom: 2px solid red;
+}
+
 /*.sous2
 {
   font-size: 1.3em;
@@ -257,10 +275,10 @@ a
   font-size: 23px;
 }
 
-a:hover
+/*a:hover
 {
   color: #feba12;
-}
+}*/
 /*
  * ...this controls the actual 3 line menu position, the 'burger'...
  */
@@ -383,6 +401,10 @@ a:hover
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu:hover{
+  border-bottom:rgba(255, 0, 0, 0.884);
 }
 
 #menu li
