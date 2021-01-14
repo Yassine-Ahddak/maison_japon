@@ -61,6 +61,7 @@ footer table tr td
 {
   margin-top: 50px;
   display: flex;
+  /*display: space-between;*/
   font-family : Georgia ;
   vertical-align: middle;
   color : rgb(255, 255, 255);
@@ -238,18 +239,6 @@ nav > ul li:hover .sous{
 
 
 /* menu burger */
-
-/* body
-{
-  margin: 0;
-  padding: 0; */
-  
-  
-  /* These controls the font, links (including rollover/hover) and background colours*/
-  /*background: rgb(248, 248, 248);*/
-  /* color: #ffffff;
-  font-family: "Avenir Next", "Avenir", sans-serif;
-} */
 
 a.external:link
 	{color: #0000ff; font-size: 10pt; font-weight: bold; }
