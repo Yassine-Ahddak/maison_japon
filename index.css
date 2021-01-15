@@ -29,34 +29,13 @@ button
 
 
 
-#boite2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1vh;
-  text-align: right;
-  color: white;
-  position: fixed;
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  bottom: 0;
+#boite2{
+  display: flex;
+  background-color: rgb(223, 12, 12);
 }
 
-#boite2 div button {
-  display: inline-block;
-  padding: 2vh 2vh 1vh;
-  border-top: 1px solid white;
-}
-
-.fa, .fab {
-  padding: 2vh;
-  font-size: 4vh;
-  width: 5vh;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa:hover, .fab:hover {
-  opacity: 0.7;
+#boite2:hover {
+  opacity: 0.4;
 }
 
 /*Partie footer */
@@ -80,18 +59,11 @@ button
 .plan{
   display: flex;
   justify-content: space-between;
-  margin-left: 100px;
+  padding-left: 100px;
   margin-right : 90px;
   font-size: 18px;
   color: white;
 }
-
-/*#footer1{
-  padding-left : 40px;
-  margin-right: 60px;
-  margin-bottom: 20px;
-  font-size : 18px;
-}*/
 
 /* partie menu déroulant */
 
@@ -132,6 +104,11 @@ nav a{
     
 }
 
+nav a:hover{   /*lorsqu'on survole un bouton*/
+  color: rgba(255, 0, 0, 0.884);
+  border-bottom: 2px solid red;
+}
+
 .sous{
     display: none;
     /*box-shadow: 0px 1px 2px white;*/
@@ -140,6 +117,14 @@ nav a{
     width: 100%;
     z-index: 1000;
 }
+
+
+/*.sous2
+{
+  font-size: 1.3em;
+  background: black;
+  border-radius: 14px;
+}*/
 
 nav > ul li:hover .sous{
     display: block;
@@ -167,23 +152,10 @@ nav > ul li:hover .sous{
   border-radius: 14px;
 }
 
-nav a:hover{   /*lorsqu'on survole un bouton*/
-  color: rgba(255, 0, 0, 0.884);
-  border-bottom: 2px solid red;
-}
-
-/*.sous2
-{
-  font-size: 1.3em;
-  background: black;
-  border-radius: 14px;
-}*/
 .deroulant > a::after{
     content:" ▼";
     font-size: 12px;
 }
-
-
 
 /* partie animation images */
 
@@ -253,8 +225,6 @@ nav a:hover{   /*lorsqu'on survole un bouton*/
         transform: translateX(0);
     }
 }
-
-
 
 /* menu burger */
 
@@ -411,9 +381,6 @@ a
 {
   padding: 10px 0;
   font-size: 30px;
-  
-
-  
 }
 
 /*
@@ -431,7 +398,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 h1 {
-	color: #f5bff1
+	color: #f5bff1;
 }
 h6 {
 	font-size: 12px;

@@ -25,15 +25,33 @@ button
   margin-left: 400px;
 }
 
-/* ancien footer
+#boite2{
+  display: flex;
+  background-color: rgb(223, 12, 12);
+}
 
-footer table tr td 
-{   
+#boite2:hover {
+  opacity: 0.4;
+}
+
+/*Partie footer */
+
+#ma-boite
+{
+  margin-top: 50px;
+  display: flex;
+  /*justify-content: space-between;*/
   font-family : Georgia ;
   vertical-align: middle;
   color : rgb(255, 255, 255);
 }
-*/
+
+#ma-boite div
+{
+  background-color: transparent;
+  margin: 0;
+}
+
 .plan{
   margin-left: 100px;
   margin-right : 90px;
@@ -47,32 +65,6 @@ footer table tr td
   margin-right: 60px;
   margin-bottom: 20px;
   font-size : 18px;
-}
-
-/*footer{
-  display: table-row;
-  height: 1px;
-}*/
-
-/*New footer avec flexbox : */
-
-#ma-boite
-{
-  margin-top: 50px;
-  display: flex;
-  font-family : Georgia ;
-  vertical-align: middle;
-  color : rgb(255, 255, 255);
-}
-
-#ma-boite div
-{
-  background-color: transparent;
-  margin: 0;
-}
-
-.element2{
-  flex-grow: 0;
 }
 
 /* partie menu déroulant */
@@ -105,13 +97,15 @@ nav ul::after{  /*ce qui se passe directement après ul*/
 }
 
 nav a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+  background: black;
+  border-radius: 14px;
+  
 }
-
 nav a:hover{   /*lorsqu'on survole un bouton*/
     color: rgba(255, 0, 0, 0.884);
     border-bottom: 2px solid red;
@@ -125,6 +119,14 @@ nav a:hover{   /*lorsqu'on survole un bouton*/
     width: 100%;
     z-index: 1000;
 }
+
+/*.sous2
+{
+  font-size: 1.3em;
+  background: black;
+  border-radius: 14px;
+}*/
+
 nav > ul li:hover .sous{
     display: block;
 }
@@ -144,8 +146,11 @@ nav > ul li:hover .sous{
 }
 .deroulant
 {
+  text-decoration: none;
   margin-left: 100px;
   font-size: 1.3em;
+  background: black;
+  border-radius: 14px;
 }
 .deroulant > a::after{
     content:" ▼";
@@ -153,18 +158,6 @@ nav > ul li:hover .sous{
 }
 
 /* menu burger */
-
-body
-{
-  margin: 0;
-  padding: 0;
-  
-  
-  /* These controls the font, links (including rollover/hover) and background colours*/
-  /*background: rgb(248, 248, 248);*/
-  color: #ffffff;
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
 
 a.external:link
 	{color: #0000ff; font-size: 10pt; font-weight: bold; }
@@ -183,10 +176,10 @@ a
 	font-size: 23px;
 }
 
-a:hover
+/*a:hover
 {
   color: #feba12;
-}
+}*/
 /*
  * ...this controls the actual 3 line menu position, the 'burger'...
  */
@@ -234,7 +227,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: #ff0000; 
+  background: #ffffff; 
   border-radius: 3px;
   
   z-index: 1;
@@ -264,7 +257,7 @@ a:hover
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #ffffff;
 }
 
 /*
@@ -297,9 +290,10 @@ a:hover
   margin: -76px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: #ffffff;
+  background: black;
   border-style:groove;
-  border-color: #00437c;
+  border-color: #ffffff;
+  
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -310,13 +304,14 @@ a:hover
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
+#menu:hover{
+  border-bottom:rgba(255, 0, 0, 0.884);
+}
+
 #menu li
 {
   padding: 10px 0;
   font-size: 30px;
-  
-
-  
 }
 
 /*
@@ -334,7 +329,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 h1 {
-	color: black;
+	color: #f5bff1;
 }
 h6 {
 	font-size: 12px;
