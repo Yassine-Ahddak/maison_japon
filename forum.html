@@ -67,7 +67,6 @@
         </ul>
       </div>
 
-  
         <!-- menu déroulant -->
       <ul>
         <li class="deroulant"><a href="#">&Eacute;vènements</a>
@@ -82,7 +81,7 @@
       </ul>
     </nav>
 
-    <form method="post" action="traitement.php">
+   <!-- <form method="post" action="traitement.php">
       <p>
         <label for="ameliorer">
         Comment pensez-vous que je puisse améliorer mon site ?
@@ -94,8 +93,30 @@
         Mais enfin ! Il est tellement génialissime qu'il n'est pas nécessaire de l'améliorer !
         </textarea>       
       </p>
-    </form>
+    </form>-->
 
+<!--Formulaire--> 
+    <form action="/ma-page-de-traitement" method="post">
+      <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name" placeholder="Marie" autofocus required>
+      </div>
+      <div>
+        <label for="name">Objet :</label>
+        <input type="text" id="name" name="user_name" placeholder="Demande de participation">
+      </div>
+      <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail" placeholder="jean.francois@gmail.com">
+      </div>
+      <div>
+        <label for="msg">Commentaire :</label>
+        <textarea id="msg" name="user_message" placeholder="Votre commentaire ou question"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Envoyer le message</button>
+      </div>
+    </form>
 
 
 

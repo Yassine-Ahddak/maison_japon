@@ -6,13 +6,13 @@ html, body {
   background-size: cover;
   overflow: hidden;
 }
-
+/*
 button
 {
   border: 0px;
   padding: center;
   margin-left: 20px;
-}
+}*/
 
 #titre
 {
@@ -28,6 +28,7 @@ button
 #boite2{
   display: flex;
   background-color: rgb(223, 12, 12);
+  margin: 0;
 }
 
 #boite2:hover {
@@ -53,8 +54,8 @@ button
 }
 
 .plan{
-  margin-left: 100px;
-  margin-right : 90px;
+  margin-left: 80px;
+  margin-right : 70px;
   font-size: 18px;
   color: white;
   flex-grow: 1;
@@ -102,7 +103,7 @@ nav a{
   color: rgb(255, 255, 255);
   border-bottom: 2px solid transparent;
   padding: 10px 0px;
-  background: black;
+  background:#131416;
   border-radius: 14px;
   
 }
@@ -149,7 +150,7 @@ nav > ul li:hover .sous{
   text-decoration: none;
   margin-left: 100px;
   font-size: 1.3em;
-  background: black;
+  background:#131416;
   border-radius: 14px;
 }
 .deroulant > a::after{
@@ -290,7 +291,7 @@ a
   margin: -76px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: black;
+  background:#131416;
   border-style:groove;
   border-color: #ffffff;
   
@@ -306,12 +307,6 @@ a
 
 #menu:hover{
   border-bottom:rgba(255, 0, 0, 0.884);
-}
-
-#menu li
-{
-  padding: 10px 0;
-  font-size: 30px;
 }
 
 /*
@@ -334,4 +329,66 @@ h1 {
 h6 {
 	font-size: 12px;
 	color: #FFFFFF;
+}
+
+                                                                     /*Formulaire*/
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 50px;
+  width: 460px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  color : white;
+  background:#131416;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: 4em;
 }
