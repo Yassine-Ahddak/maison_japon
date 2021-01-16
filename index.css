@@ -26,43 +26,81 @@ button
   margin-left: 400px;
 }
 
+/*calendrier*/
 
-
-
-#boite2{
+#body{
   display: flex;
-  background-color: rgb(223, 12, 12);
+  width: 100%;
+  height: 500;
+  margin-left: 28px;
 }
 
-#boite2:hover {
-  opacity: 0.4;
+#calendrier{
+  width: 700px;
+  height: 500px;
+  position: relative;
+  overflow: scroll;
+  color: white;
+  background-color: #131416;
+  border: 2px solid white;
+  margin: 50px auto;
+}
+
+#calendrier::-webkit-scrollbar {
+  display: none;
+}
+
+#calendrier p{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#calendrier hr{
+  background-color: #131416; 
+  color: #ffffff; 
+  width:92%; 
+  text-align: center;
+  border:none; 
+  border-bottom: dashed #df3636 2px;
 }
 
 /*Partie footer */
 
 #ma-boite
 {
-  margin-top: 50px;
   display: flex;
-  /*justify-content: space-between;*/
-  font-family : Georgia ;
-  vertical-align: middle;
-  color : rgb(255, 255, 255);
+  color : rgb(0, 0, 0);
+  background-color: rgb(241, 240, 240);
+  /*border-radius: 14px;*/
 }
 
 #ma-boite div
 {
   background-color: transparent;
-  margin: 0;
+  
 }
 
 .plan{
   display: flex;
-  justify-content: space-between;
-  padding-left: 100px;
+  padding-left: 80px;
   margin-right : 90px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  vertical-align: baseline;
   font-size: 18px;
-  color: white;
+  font-family : Georgia ;
+  vertical-align: middle;
+  color: rgb(0, 0, 0);
+}
+
+#boite2{
+  display: flex;
+  vertical-align: baseline;
+  margin-top: 15px;
+}
+
+#maboite:hover {
+  opacity: 0.4;
 }
 
 /* partie menu déroulant */
@@ -99,7 +137,7 @@ nav a{
     color: rgb(255, 255, 255);
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
-    background: black;
+    background: #131416;
     border-radius: 14px;
     
 }
@@ -148,7 +186,7 @@ nav > ul li:hover .sous{
   text-decoration: none;
   margin-left: 100px;
   font-size: 1.3em;
-  background: black;
+  background: #131416;
   border-radius: 14px;
 }
 
@@ -165,7 +203,8 @@ nav > ul li:hover .sous{
     overflow: hidden;
     margin: 50px auto;
     position: relative;
-    left: 400px;
+    border: 2px solid white;
+    left: -50px;
 }
 .slides {
     width: calc(700px * 8);
@@ -359,7 +398,7 @@ a
   margin: -76px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: black;
+  background: #131416;
   border-style:groove;
   border-color: #ffffff;
   
