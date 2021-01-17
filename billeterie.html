@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Maison de la Culture du Japon</title>
-    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="billeterie.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -42,7 +42,7 @@
                 <td><a href="https://www.mcjp.fr/fr/agenda">Agenda</a></td>
               </tr>
               <tr>
-                <td><a href="map.html">Billeterie</a></td>
+                <td><a href="billeterie.html">Billeterie</a></td>
               </tr>
               <tr>
                 <td><a href="forum.html">Forum</a></td>
@@ -75,50 +75,70 @@
             <li class="sous2"><a href="https://www.mcjp.fr/fr/agenda">Agenda</a></li>
           </ul>
         </li>
-        <li class="sous2"><a href="#">Billeterie</a></li>
+        <li class="sous2"><a href="billeterie.html">Billeterie</a></li>
         <li class="sous2"><a href="forum.html">Forum</a></li>
         <li class="sous2"><a href="#">Contact</a></li>
       </ul>
     </nav>
 
-<!--calendrier-->
+                                                                    <!--calendrier-->
     <div id="body">
-      <div id="calendrier"> 
-        <p>Samedi 23 Janvier 2021 : Venez nombreux visionner un court-métrage réalisé par nos collaborateurs de la Japan Expo
-         </p>
-        <hr>
-        <p>Lundi 25 Janvier 2021 : Venez nombreux goûter au Saké et déguster des gateaux traditionnels en compagnie de dessinateur de mangas</p>
-        <hr>
-        <p>Mardi 26 Janvier 2021 : Vous aurez l'honneur de rencontrer l'auteur d'un des mangas les plus connus au Japon et dans le monde entier : 
-        Akira Toriyama</p>
-        <hr>
-        <p>Mercredi 27 Janvier 2021 : Venez nombreux visionner en notre compagnie les 2 premiers épisodes de l'animé tant attendu <em>"The Promised Neverland"</em></p>
-        <hr>
-        <p>Jeudi 28 Janvier 2021 : Venez nombreux rencontrer des fans incontestés du manga 
-          <em>"One Piece"</em> et visionner un cours épisode de l'animé en leur compagnie</p>
-        <hr>
-        <p>Vendredi 29 Janvier 2021 : Pour les amateurs de lutte japonaise, venez assister à un combat réel et discuter avec les Sumos les plus titrés du monde entier !</p>
-        <hr>
-        <p>Samedi 30 Janvier 2021 : Pour les amateurs d'anciennes consoles, 
-        apportez votre Gameboy Color et votre jeu Pokémon afin de vous amuser en compagnie d'autres fans du célèbre jeu Japonais encore très réputé à ce jour !</p>
-      </div>
-
-      <div class="slider">
-        <div class="slides">
-          <div class="slide"><img src="image/japan_expo.jpg" /></div>
-          <div class="slide"><img src="image/sake.jpg" /></div>
-          <div class="slide"><img src="image/akira_toriyama.jpg" /></div>
-          <div class="slide"><img src="image/promised_neverland.jpg" /></div>
-          <div class="slide"><img src="image/one_piece.jpg" /></div>
-          <div class="slide"><img src="image/combat_sumo.jpg" /></div>
-          <div class="slide"><img src="image/pokemon.jpg" /></div>
+        <div id="representation"> 
+            <div class="ligne1">
+                <p><strong>Sam. 23 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>             
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button>Réservation disponible</button></p>
+            </div>
+            <hr>
+            <div class="ligne1">
+                <p><strong>Lun. 25 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button>Réservation disponible</button></p>
+            </div>
+            <hr>
+            <div class="ligne1">
+                <p><strong>Mar. 26 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button>Réservation disponible</button></p>
+            </div>
+            <hr>
+            <div class="ligne1">
+                <p><strong>Mer. 27 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button>Réservation disponible</button></p>
+            </div>
+            <hr>
+            <div class="ligne1">
+                <p><strong>Jeu. 28 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button>Réservation disponible</button></p>
+            </div>
+            <hr>
+            <div class="ligne1">
+                <p><strong>Ven. 29 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button class="indisponible">Réservation indisponible</button></p>
+            </div>
+            <hr>
+            <div class="ligne1">
+                <p><strong>Sam. 30 Janvier 2021</strong></p>
+                <input type="number" min="0" max="5" step="1"/>
+                <p>0.00 Euros (Gratuit)</p>
+                <p><button class="indisponible">Réservation indisponible</button></p>
+            </div>
         </div>
-      </div>
+        <div id="panier">
+            <h3>VOTRE PANIER</h3>
+            <p>Votre panier est vide.</p>
+        </div>
     </div>
-<!-- Balise <hr> pour la séparation entre les évènements du calendrier -->
 
-
-    </br>
     <footer>
       <div id="ma-boite">
         
