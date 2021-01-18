@@ -5,9 +5,11 @@ html, body {
     /*background: linear-gradient(rgb(233, 128, 128), rgb(255, 255, 255));*/
     background-image: url("image/mont-fuji-violet-4k-rose.png");
     background-size: cover;
-    overflow: hidden;
+    overflow: scroll;
 }
-
+body::-webkit-scrollbar {
+    display: none;
+  }
 button
 {
 border: 0px;
@@ -30,7 +32,10 @@ margin-left: 400px;
 
 #calendrier{
   width: 98%;
-  height: 370px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   position: relative;
   overflow: visible;
   color: white;
@@ -67,7 +72,32 @@ margin-left: 400px;
     height: 175px;
     border: 2px solid white;
 }
+#calendrier #element-calendrier{
+    margin-top: 0.5em;
+    margin-right: 4em;
+    width: 22em;
+    height: auto;
+    border: 2px solid red;
+    display: inline;
+}
 
+.onep{
+    width: 22em;
+    height: 13em;
+}
+#arrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.transitionarrow{
+    margin-top: auto;
+    border-left: 4em;
+    padding-right: -4em;
+    margin-bottom: 4em;
+    width: 2em;
+    height: 2em;
+}
 
 /*Partie footer */
 
