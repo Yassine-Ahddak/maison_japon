@@ -25,16 +25,6 @@ button
   margin-left: 400px;
 }
 
-#boite2{
-  display: flex;
-  background-color: rgb(223, 12, 12);
-  margin: 0;
-}
-
-#boite2:hover {
-  opacity: 0.4;
-}
-
 /*Partie footer */
 
 #ma-boite1
@@ -78,10 +68,19 @@ button
   background-color:#ebebeb;
 }
 
+#boite2:hover{
+  opacity: 1;
+}
+
 #boite2 button{
   border: 0;
   padding:0;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+#boite2 button:hover{
+  opacity: 0.7;
 }
 
 .plan:hover {
@@ -163,7 +162,6 @@ nav > ul li:hover .sous2{
 }
 .sous2 a{
     padding: 10px;
-    border-bottom: none;
     text-align: center;
 }
 .sous2 a:hover{
@@ -328,10 +326,6 @@ a
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu:hover{
-  border-bottom:rgba(255, 0, 0, 0.884);
 }
 
 /*
