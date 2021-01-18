@@ -1,19 +1,15 @@
 /* ma réalisation */
 
 html, body {
-  height: 100vh;
   /*background: linear-gradient(rgb(233, 128, 128), rgb(255, 255, 255));*/
   background-image: url("image/mont-fuji-violet-4k-rose.png");
   background-size: cover;
-  overflow: hidden;
+  overflow: scroll;
 }
-/*
-button
-{
-  border: 0px;
-  padding: center;
-  margin-left: 20px;
-}*/
+
+body::-webkit-scrollbar {
+  display: none;
+}
 
 #titre
 {
@@ -446,12 +442,11 @@ a
   position: absolute;
   width: 400px;
   margin: -76px 0 0 -50px;
-  padding: 50px;
+  padding: 60px;
   padding-top: 125px;
   background: #131416;
   border-style:groove;
   border-color: #ffffff;
-  
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
