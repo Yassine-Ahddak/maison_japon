@@ -1,8 +1,12 @@
 /* ma réalisation */
 
 html, body {
-  /*background: linear-gradient(rgb(233, 128, 128), rgb(255, 255, 255));*/
-  background-image: url("image/mont-fuji-violet-4k-rose.png");
+  /*background: linear-gradient(rgb(219, 219, 219), rgb(219, 219, 219));*/
+  /*background-image: linear-gradient(
+    rgba(240, 235, 235, 0.25),
+    rgba(240, 234, 234, 0.25)
+    ), url('image/mont-fuji-violet-4k-rose.png');*/
+  background-image:url('image/mont-fuji-violet-4k-rose.png'); ;
   background-size: cover;
   overflow: scroll;
 }
@@ -30,14 +34,30 @@ body::-webkit-scrollbar {
   font-size : 60px;
   font-weight: 100;
   color: #e90d0d;
+  margin-bottom:-10px;
+}
+
+#case1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#131416;
+  border: 2px solid white;
+  margin: 50px auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 1000px;
+  height: 500px;
 }
 
 .liste{
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  margin-left: 60px;
   color: #ffffff;
   padding: 0;
+  margin-bottom: 15px;
 }
 
 .liste a{
@@ -120,13 +140,6 @@ body::-webkit-scrollbar {
   padding-left: 60px;
 }*/
 
-#case1{
-  background-color: #131416;
-  border: 2px solid white;
-  margin: 50px auto;
-  margin-right: 50px;
-  margin-left: 50px;
-}
 /*Partie footer */
 
 #ma-boite1
@@ -252,7 +265,6 @@ nav > ul li:hover .sous2{
 }
 .sous2 a{
     padding: 10px;
-    border-bottom: none;
     text-align: center;
 }
 .sous2 a:hover{
