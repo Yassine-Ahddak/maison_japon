@@ -256,7 +256,7 @@ nav > ul li:hover .sous2{
     text-align: center;
 }
 .sous2 a:hover{
-    border-bottom: none;
+    border-bottom: 2px solid red; 
     /*background-color: RGBa(200,200,200,0.1);*/
 }
 .deroulant
