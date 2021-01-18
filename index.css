@@ -158,38 +158,40 @@ nav a:hover{   /*lorsqu'on survole un bouton*/
   color: rgba(255, 0, 0, 0.884);
   border-bottom: 2px solid red;
 }
-
+/*
 .sous{
     display: none;
-    /*box-shadow: 0px 1px 2px white;*/
-    /*background-color: white;*/
     position: absolute;
     width: 100%;
+    margin-left: 100px;
     z-index: 1000;
 }
-
-
-/*.sous2
+*/
+.sous2
 {
   font-size: 1.3em;
-  background: black;
+  background: #131416;
   border-radius: 14px;
-}*/
+}
 
-nav > ul li:hover .sous{
+#evenement .sous2{
+  margin-left: 100px;
+}
+
+nav > ul li:hover .sous2{
     display: block;
 }
-.sous li{
+.sous2 li{
     display: flex;
     float: none;
     width: 100%;
 }
-.sous a{
+.sous2 a{
     padding: 10px;
     border-bottom: none;
     text-align: center;
 }
-.sous a:hover{
+.sous2 a:hover{
     border-bottom: none;
     /*background-color: RGBa(200,200,200,0.1);*/
 }
@@ -296,10 +298,6 @@ a
   font-size: 23px;
 }
 
-/*a:hover
-{
-  color: #feba12;
-}*/
 /*
  * ...this controls the actual 3 line menu position, the 'burger'...
  */

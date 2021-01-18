@@ -37,28 +37,54 @@ button
 
 /*Partie footer */
 
-#ma-boite
+#ma-boite1
 {
-  margin-top: 50px;
   display: flex;
-  /*justify-content: space-between;*/
-  font-family : Georgia ;
-  vertical-align: middle;
-  color : rgb(255, 255, 255);
+  justify-content: space-around;
 }
 
-#ma-boite div
+#ma-boite
 {
-  background-color: transparent;
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color:#131416;
+  border-radius: 14px;
+  border: 2px solid white;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .plan{
-  margin-left: 60px;
-  margin-right : 50px;
+  display: flex;
+  padding-left: 80px;
+  margin-right : 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-size: 18px;
-  color: white;
-  flex-grow: 1;
+  font-family : Georgia ;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+}
+
+#boite2{
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  padding-right: 10px;
+  padding-left: -10px;
+  padding-top: -10px;
+  border-radius: 14px;
+  border: 2px solid #131416;
+  background-color:#ebebeb;
+}
+
+#boite2 button{
+  border: 0;
+  padding:0;
+}
+
+.plan:hover {
+  opacity: 0.4;
 }
 
 /* partie menu déroulant */
@@ -105,36 +131,41 @@ nav a:hover{   /*lorsqu'on survole un bouton*/
     border-bottom: 2px solid red;
 }
 
+/*
 .sous{
     display: none;
     /*box-shadow: 0px 1px 2px white;*/
-    /*background-color: white;*/
+    /*background-color: white;*//*
     position: absolute;
     width: 100%;
     z-index: 1000;
-}
-
-/*.sous2
-{
-  font-size: 1.3em;
-  background: black;
-  border-radius: 14px;
 }*/
 
-nav > ul li:hover .sous{
+.sous2
+{
+  font-size: 1.3em;
+  background: #131416;
+  border-radius: 14px;
+}
+
+#evenement .sous2{
+  margin-left: 100px;
+}
+
+nav > ul li:hover .sous2{
     display: block;
 }
-.sous li{
+.sous2 li{
     display: flex;
     float: none;
     width: 100%;
 }
-.sous a{
+.sous2 a{
     padding: 10px;
     border-bottom: none;
     text-align: center;
 }
-.sous a:hover{
+.sous2 a:hover{
     border-bottom: none;
     /*background-color: RGBa(200,200,200,0.1);*/
 }
