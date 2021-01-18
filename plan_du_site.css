@@ -34,6 +34,7 @@ body::-webkit-scrollbar {
   font-size : 60px;
   font-weight: 100;
   color: #e90d0d;
+  margin-bottom:-10px;
 }
 
 #case1{
@@ -45,7 +46,7 @@ body::-webkit-scrollbar {
   margin: 50px auto;
   margin-right: 50px;
   margin-left: 50px;
-  width: 500px;
+  width: 1000px;
   height: 500px;
 }
 
@@ -53,6 +54,7 @@ body::-webkit-scrollbar {
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  margin-left: 60px;
   color: #ffffff;
   padding: 0;
   margin-bottom: 15px;
