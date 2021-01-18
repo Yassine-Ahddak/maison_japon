@@ -26,7 +26,7 @@ button
   margin-left: 400px;
 }
 
-/*calendrier*/
+                                                                    /*calendrier*/
 
 #body{
   display: flex;
@@ -66,18 +66,21 @@ button
 
 /*Partie footer */
 
+#ma-boite1
+{
+  display: flex;
+  justify-content: space-around;
+}
+
 #ma-boite
 {
   display: flex;
   justify-content: space-between;
   background-color:#131416;
   border-radius: 14px;
-}
-
-#ma-boite div
-{
-  background-color: transparent;
-  
+  border: 2px solid white;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .plan{
@@ -86,7 +89,6 @@ button
   margin-right : 90px;
   margin-top: 15px;
   margin-bottom: 15px;
-  vertical-align: baseline;
   font-size: 18px;
   font-family : Georgia ;
   vertical-align: middle;
@@ -95,10 +97,21 @@ button
 
 #boite2{
   display: flex;
-  margin-top: 15px;
+  align-items: center;
+  margin-right: 32px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: -10px;
+  border-radius: 14px;
+  border: 2px solid #131416;
+  background-color:#ebebeb;
 }
 
-#maboite:hover {
+#boite2 button{
+  border: 0;
+}
+
+.plan:hover {
   opacity: 0.4;
 }
 

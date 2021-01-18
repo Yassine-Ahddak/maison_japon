@@ -1,158 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Maison de la Culture du Japon</title>
-	<link href="plan_du_site.css" rel="stylesheet" type="text/css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Maison de la Culture du Japon</title>
+    <link href="plan_du_site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+  </head>
 
-<body>
-	<header>
-		<table>
-			<td>
-				<a href="index.html"><img id="logo" src="image/logo.png" width="80" height="80" alt="logo"/></a> 
-      </td>
-      <td>
-      <h1 id="titre">Maison de la culture du Japon</h1>
-      </td>
-    </table>
-  </header> 
+  <body>
+    <header>
+      <table>
+        <td>
+          <a href="index.html"><img id="logo" src="image/logo-alpha.png" width="80" height="80" alt="logo"/></a> 
+        </td>
+        <td>
+        <h1 id="titre">日本文化の家・Maison de la culture du Japon</h1>
+        </td>
+      </table>
+    </header> 
 
   <nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-    
-    <span></span>
-    <span></span>
-    <span></span>
-    
-   
- 
-    <ul id="menu">
-		<table width="400" border="0">
-  <tbody>
-    <tr>
-      <td><a href="home.html">&Eacutevènements</a></td>
-    </tr>
-    <tr>
-      <td><a href="timetable.html">Agenda</a></td>
-    </tr>
-    <tr>
-      <td><a href="map.html">Billeterie</a></td>
-    </tr>
-    <tr>
-      <td><a href="contact.html">Réseaux sociaux</a></td>
-    </tr>
-    <tr>
-      <td><a href="help.html">Help</a></td>
-    </tr>
-    <tr>
-      <td><a href="forum.html">Forum</a></td>
-    </tr>
-    <tr>
-      <td><a href="contact.html">Nous contacter</a></td>
-    </tr>
-    <tr>
-      <td><a href="contact.html">Plan du site</a></td>
-    </tr>
-    <tr>
-      <td><a href="contact.html">Informations pratiques</a></td>
-    </tr>
-  </tbody>
-</table>
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <ul id="menu">
+        <table width="400" border="0">
+          <tbody>
+            <tr>
+              <td><a href="evenements.html">&Eacute;vènements</a></td>
+            </tr>
+            <tr>
+              <td><a href="timetable.html">Agenda</a></td>
+            </tr>
+            <tr>
+              <td><a href="billeterie.html">Billeterie</a></td>
+            </tr>
+            <tr>
+              <td><a href="forum.html">Forum</a></td>
+            </tr>
+            <tr>
+              <td><a href="help.html">Help</a></td>
+            </tr>
+            <tr>
+              <td><a href="contact.html">Réseaux sociaux</a></td>
+            </tr>
+            <tr>
+              <td><a href="contact.html">Nous contacter</a></td>
+            </tr>
+            <tr>
+              <td><a href="contact.html">Plan du site</a></td>
+            </tr>
+            <tr>
+              <td><a href="contact.html">Informations pratiques</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </ul>
+    </div>
 
-    </ul>
-  </div>
-
-  
-<!-- menu déroulant -->
+    
+      <!-- menu déroulant -->
     <ul>
-    <li class="deroulant"><a href="#">&Eacutevènements</a>
-      <ul class="sous">
-        <li><a href="#">Actualités</a></li>
-        <li><a href="#">Agenda</a></li>
-      </ul>
-    </li>
-    <li class="deroulant"><a href="#">Billeterie</a>
-      <ul class="sous">
-        <li><a href="#">Tarifs</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Forum</a></li>
-    <li><a href="#">Contact</a></li>
+      <li class="deroulant"><a href="evenements.html">&Eacute;vènements</a>
+        <ul class="sous">
+          <li class="sous2"><a href="#">Actualités</a></li>
+          <li class="sous2"><a href="https://www.mcjp.fr/fr/agenda">Agenda</a></li>
+        </ul>
+      </li>
+      <li class="sous2"><a href="billeterie.html">Billeterie</a></li>
+      <li class="sous2"><a href="forum.html">Forum</a></li>
+      <li class="sous2"><a href="#">Contact</a></li>
     </ul>
   </nav>
 
-<!-- texte du plan du site (body) -->
-</br>
-<h2 id="titre_plan">Plan du site<h2>
 
-  <ul>
-    <li class="liste">&Eacutevènements</li>
+    <!-- texte du plan du site (body) -->
+  </br>
+  <h2 id="titre_plan">Plan du site<h2>
 
-      <li class="sousliste"><a href="actualites.html">Actualités</a></li>
+    <ul>
+      <li class="liste">&Eacute;vènements</li>
 
-      <li class="liste"><a href="https://www.mcjp.fr/fr/agenda">Agenda</a></li>
-        <li class="sousliste2">Films</li>
-        <li class="sousliste2">Archives</li>
-          <li class="sousliste3">Septembre / Décembre 2013</li>
-          <li class="sousliste3">Septembre / Décembre 2012</li>
-          <li class="sousliste3">Septembre / Décembre 2011</li>
-          <li class="sousliste3">Septembre / Décembre 2010</li>
-          <li class="sousliste3">Septembre / Décembre 2009</li>
-          <li class="sousliste3">Septembre / Décembre 2008</li>
-          <li class="sousliste3">Septembre / Décembre 2007</li>
-          <li class="sousliste3">Septembre / Décembre 2006</li>
-          <li class="sousliste3">Septembre / Décembre 2005</li>
-          <li class="sousliste3">Septembre / Décembre 2004</li>
-          <li class="sousliste3">Septembre / Décembre 2003</li>
-          <li class="sousliste3">Septembre / Décembre 2002</li>
-          <li class="sousliste3">Septembre / Décembre 2001</li>
-          <li class="sousliste3">Septembre / Décembre 2000</li>
-          <li class="sousliste3">Avril / Juillet 2000</li>
-          <li class="sousliste3">Avril / Juillet 2001</li>
-          <li class="sousliste3">Janvier / Mars 2001</li>
-          <li class="sousliste3">Janvier / Mars 2002</li>
-          <li class="sousliste3">Avril / Juillet 2002</li>
-          <li class="sousliste3">Janvier / Mars 2003</li>
-          <li class="sousliste3">Avril / Juillet 2003</li>
-          <li class="sousliste3">Janvier / Mars 2004</li>
-          <li class="sousliste3">Avril / Juillet 2004</li>
-          <li class="sousliste3">Janvier / Mars 2005</li>
-          <li class="sousliste3">Avril / Juillet 2005</li>
-          <li class="sousliste3">Janvier / Mars 2006</li>
-          <li class="sousliste3">Avril / Juillet 2006</li>
-          <li class="sousliste3">Janvier / Mars 2007</li>
-          <li class="sousliste3">Avril / Juillet 2007</li>
-          <li class="sousliste3">Janvier / Mars 2008</li>
-          <li class="sousliste3">Avril / Juillet 2008</li>
-          <li class="sousliste3">Janvier / Mars 2009</li>
-          <li class="sousliste3">Avril / Juillet 2009</li>
-          <li class="sousliste3">Janvier / Mars 2010</li>
-          <li class="sousliste3">Avril / Juillet 2010</li>
-          <li class="sousliste3">Janvier / Mars 2011</li>
-          <li class="sousliste3">Avril / Juillet 2011</li>
-          <li class="sousliste3">Janvier / Mars 2012</li>
-          <li class="sousliste3">Avril / Juillet 2012</li>
-          <li class="sousliste3">Janvier / Mars 2013</li>
-          <li class="sousliste3">Avril / Juillet 2013</li>
-          <li class="sousliste3">Janvier / Mars 2014</li>
-          <li class="sousliste3">Avril / Juillet 2014</li>
-          <li class="sousliste3">Septembre / Décembre 2014</li>
-          <li class="sousliste3">Janvier / Mars 2015</li>
-          <li class="sousliste3">Avril / Juillet 2015</li>
-          <li class="sousliste3">Septembre / Décembre 2015</li>
-          <li class="sousliste3">Janvier / Mars 2016</li>
+        <li class="sousliste"><a href="actualites.html">Actualités</a></li>
 
-      <li class="liste"><a href="https://www.mcjp.fr/fr/agenda">Billeterie</a></li>
+        <li class="liste"><a href="https://www.mcjp.fr/fr/agenda">Agenda</a></li>
+          <li class="sousliste2">Films</li>
+          <li class="sousliste2">Archives</li>
+            <li class="sousliste3">Septembre / Décembre 2013</li>
+            <li class="sousliste3">Septembre / Décembre 2012</li>
+            <li class="sousliste3">Septembre / Décembre 2011</li>
+            <li class="sousliste3">Septembre / Décembre 2010</li>
+            <li class="sousliste3">Septembre / Décembre 2009</li>
+            <li class="sousliste3">Septembre / Décembre 2008</li>
+            <li class="sousliste3">Septembre / Décembre 2007</li>
+            <li class="sousliste3">Septembre / Décembre 2006</li>
+            <li class="sousliste3">Septembre / Décembre 2005</li>
+            <li class="sousliste3">Septembre / Décembre 2004</li>
+            <li class="sousliste3">Septembre / Décembre 2003</li>
+            <li class="sousliste3">Septembre / Décembre 2002</li>
+            <li class="sousliste3">Septembre / Décembre 2001</li>
+            <li class="sousliste3">Septembre / Décembre 2000</li>
+            <li class="sousliste3">Avril / Juillet 2000</li>
+            <li class="sousliste3">Avril / Juillet 2001</li>
+            <li class="sousliste3">Janvier / Mars 2001</li>
+            <li class="sousliste3">Janvier / Mars 2002</li>
+            <li class="sousliste3">Avril / Juillet 2002</li>
+            <li class="sousliste3">Janvier / Mars 2003</li>
+            <li class="sousliste3">Avril / Juillet 2003</li>
+            <li class="sousliste3">Janvier / Mars 2004</li>
+            <li class="sousliste3">Avril / Juillet 2004</li>
+            <li class="sousliste3">Janvier / Mars 2005</li>
+            <li class="sousliste3">Avril / Juillet 2005</li>
+            <li class="sousliste3">Janvier / Mars 2006</li>
+            <li class="sousliste3">Avril / Juillet 2006</li>
+            <li class="sousliste3">Janvier / Mars 2007</li>
+            <li class="sousliste3">Avril / Juillet 2007</li>
+            <li class="sousliste3">Janvier / Mars 2008</li>
+            <li class="sousliste3">Avril / Juillet 2008</li>
+            <li class="sousliste3">Janvier / Mars 2009</li>
+            <li class="sousliste3">Avril / Juillet 2009</li>
+            <li class="sousliste3">Janvier / Mars 2010</li>
+            <li class="sousliste3">Avril / Juillet 2010</li>
+            <li class="sousliste3">Janvier / Mars 2011</li>
+            <li class="sousliste3">Avril / Juillet 2011</li>
+            <li class="sousliste3">Janvier / Mars 2012</li>
+            <li class="sousliste3">Avril / Juillet 2012</li>
+            <li class="sousliste3">Janvier / Mars 2013</li>
+            <li class="sousliste3">Avril / Juillet 2013</li>
+            <li class="sousliste3">Janvier / Mars 2014</li>
+            <li class="sousliste3">Avril / Juillet 2014</li>
+            <li class="sousliste3">Septembre / Décembre 2014</li>
+            <li class="sousliste3">Janvier / Mars 2015</li>
+            <li class="sousliste3">Avril / Juillet 2015</li>
+            <li class="sousliste3">Septembre / Décembre 2015</li>
+            <li class="sousliste3">Janvier / Mars 2016</li>
+
+        <li class="liste"><a href="https://www.mcjp.fr/fr/agenda">Billeterie</a></li>
         <li class="sousliste2">Tarifs</li>
-  </ul>
+    </ul>
 
 
 
@@ -163,23 +158,53 @@
 
 
 
-</br></br></br></br>
-  <footer>
-      <table>
-        <tr>
-          <td id="footer1">Copyright © 2020</td>
-          <td><a href="plan_du_site.html" class="plan">Plan du site</a></td>
-          <td><a href="acces.html" class="plan">Accès</a></td>
-          <td><a href="confidentialite.html" class="plan">Politique de confidentialité</a></td>
-          <td><a href="contact.html" class="plan">Contact</a></td>
+  </br></br></br></br>
+    <footer>
+      <div id="ma-boite1">
+        <div id="ma-boite">
+          <div >
+            <a href="https://www.mcjp.fr/" class="plan">Copyright © 2021</a>
+          </div>
+          <div>
+            <a href="plan_du_site.html" class="plan">Plan du site</a>
+          </div>
+          <div>
+            <a href="acces.html" class="plan">Accès</a>
+          </div>
+          <div>
+            <a href="confidentialite.html" class="plan">Politique de confidentialité</a>
+          </div>
+          <div>
+          <a href="contact.html" class="plan">Contact</a>
+          </div>
+        </div>
 
-          <td><button><a href="https://twitter.com/mcjp_officiel"><img src="https://www.mcjp.fr/bundles/lehubagencemcjp/images/icon-tw-bl.svg" alt="Twitter"</a></button></td>
-          <td><button><a href="https://www.facebook.com/MCJP.officiel"><img src="https://www.mcjp.fr/bundles/lehubagencemcjp/images/icon-fb-bl.svg" alt="Facebook"</a></button></td>
-          <td><button><a href="https://www.instagram.com/mcjp_officiel/"><img src="https://www.mcjp.fr/bundles/lehubagencemcjp/images/icon-insta-bl.svg" alt="Instagram"</a></button></td>
-          <td><button><a href="https://www.youtube.com/channel/UC6tThdaeY951YFJC_UDwRRQ/videos"><img src="https://www.mcjp.fr/bundles/lehubagencemcjp/images/icon-yt-bl.svg" alt="Youtube"</a></button></td>
-        </tr>
-      </table>
-  </footer>
+        <!--Logos réseaux sociaux-->
 
-
-</body>
+        <div id="boite2">
+          <div>
+            <button>
+              <a href="#" class="fa fa-twitter-square" style="font-size:25px;color:black;"></a>
+            </button>
+          </div>
+          <div>
+            <button>
+              <a href="#" class="fa fa-facebook-square" style="font-size:25px;color:black;"></a>
+            </button>
+          </div>
+          <div>
+            <button>
+              <a href="#" class="fa fa-instagram" style="font-size:25px;color:black;"></a>
+            </button>
+          </div>
+          <div>
+            <button>
+              <a href="#" class="fa fa-youtube-square" style="font-size:25px;color:black;"></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
