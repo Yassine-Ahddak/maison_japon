@@ -75,6 +75,7 @@ margin-left: 400px;
 .element-calendrier{
     margin-top: 0.5em;
     margin-right: 4em;
+    margin-bottom: 2em;
     width: 22em;
     height: auto;
     border: 2px solid red;
@@ -92,7 +93,7 @@ margin-left: 400px;
 #rtransitionarrow{
     margin-top: auto;
     margin-left: 78em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     width: 4em;
     height: 4em;
     transition: transform .2s;
@@ -125,6 +126,7 @@ margin-left: 400px;
 {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 #ma-boite
