@@ -210,6 +210,10 @@ margin-left: 400px;
   padding:0;
 }
 
+#boite2 button:hover{
+    opacity: 0.7;
+}
+
 .plan:hover {
   opacity: 0.4;
 }
@@ -258,30 +262,42 @@ color: rgba(255, 0, 0, 0.884);
 border-bottom: 2px solid red;
 }
 
+/*
 .sous{
     display: none;
     /*box-shadow: 0px 1px 2px white;*/
-    /*background-color: white;*/
+    /*background-color: white;*//*
     position: absolute;
     width: 100%;
     z-index: 1000;
+}*/
+
+.sous2
+{
+  font-size: 1.3em;
+  background: #131416;
+  border-radius: 14px;
 }
 
-nav > ul li:hover .sous{
+#evenement .sous2{
+  margin-left: 100px;
+}
+
+nav > ul li:hover .sous2{
     display: block;
 }
-.sous li{
+.sous2 li{
     display: flex;
     float: none;
     width: 100%;
 }
-.sous a{
+.sous2 a{
     padding: 10px;
-    border-bottom: none;
     text-align: center;
 }
-.sous a:hover{
-    border-bottom: none;
+
+.sous2 a:hover{
+    border-bottom: 2px solid red;
     /*background-color: RGBa(200,200,200,0.1);*/
 }
 .deroulant
@@ -314,7 +330,7 @@ a
     text-decoration: none;
     color: #00437c;
     transition: color 0.3s ease;
-font-size: 23px;
+    font-size: 23px;
 }
 
 /*a:hover
@@ -443,10 +459,6 @@ transform-origin: 0% 0%;
 transform: translate(-100%, 0);
 
 transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu:hover{
-border-bottom:rgba(255, 0, 0, 0.884);
 }
 
 #menu li
