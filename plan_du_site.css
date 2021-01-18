@@ -36,7 +36,8 @@ body::-webkit-scrollbar {
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: #894f7b;
+  color: #ffffff;
+  padding: 0;
 }
 
 .liste a{
@@ -44,16 +45,26 @@ body::-webkit-scrollbar {
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: #894f7b;
+  color: #ffffff;
+  padding: 0;
 }
 
-/* partie menu déroulant */
+.liste:hover{
+  opacity: 0.7;
+}
+
+.liste a:hover{
+  opacity: 0.7;
+}
+
+/* plan du site */
 .sousliste{
   color : black;
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   padding-left: 30px;
+  padding: 0;
 }
 
 .sousliste a{
@@ -62,42 +73,60 @@ body::-webkit-scrollbar {
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
+  padding: 0;
 }
 
 .sousliste2{
-  color : black;
+  color : #feba12;
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   padding-left: 60px;
+  padding: 0;
 }
 
 .sousliste2 a{
   text-decoration: none;
-  color : black;
+  color : #feba12;
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  padding-left: 60px;
+  padding: 0;
+  /*padding-left: 60px;*/
 }
 
-.sousliste3{
+.sousliste2:hover{
+  opacity: 0.7;
+}
+
+.sousliste2 a:hover{
+  opacity: 0.7;
+}
+
+/*.sousliste3{
   color : black;
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   padding-left: 110px;
-}
+}*/
 
-.sousliste3 a{
+/*.sousliste3 a{
   text-decoration: none;
   color : black;
   list-style-type : none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   padding-left: 60px;
-}
+}*/
 
+#case1{
+  background-color: #131416;
+  border: 2px solid white;
+  margin: 50px auto;
+  margin-right: 50px;
+  margin-left: 50px;
+}
 /*Partie footer */
 
 #ma-boite1
