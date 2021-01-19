@@ -85,14 +85,17 @@ margin-left: 400px;
 }
 .element-calendrier .ensavoirplus{
     background-color: black;
-    height:1.5em;
+    height:1.2em;
     border: 2px solid white;
     color:blanchedalmond;
     float:right;
     position:absolute;
     bottom:0;
     right:0;
-    opacity: 0.7;
+}
+
+.element-calendrier .ensavoirplus:hover{
+  opacity: 0.7;
 }
 
 #Cours , #Spectacle , #Atelier , #Conference, #Diffusion{
