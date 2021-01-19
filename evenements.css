@@ -84,11 +84,13 @@ margin-left: 400px;
 .element-calendrier .ensavoirplus{
     background-color: black;
     height:1.5em;
+    border: 2px solid white;
     color:blanchedalmond;
     float:right;
     position:absolute;
     bottom:0;
     right:0;
+    opacity: 0.7;
 }
 .onep{
     width: 22em;
@@ -98,9 +100,16 @@ margin-left: 400px;
     width: 22em;
     height: 13em;
 }
+
+#arrows{
+  display: flex;
+  justify-content: flex-end;
+}
 #rtransitionarrow{
+  display: flex;
+  justify-content: flex-end;
     margin-top: auto;
-    margin-left: 78em;
+    margin-right: 3em;
     margin-bottom: 2em;
     width: 4em;
     height: 4em;
