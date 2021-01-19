@@ -73,6 +73,8 @@ margin-left: 400px;
     border: 2px solid white;
 }
 .element-calendrier{
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
     box-shadow: 1px 5px 5px black;
     margin-top: 0.5em;
     margin-right: 4em;
@@ -93,6 +95,9 @@ margin-left: 400px;
     opacity: 0.7;
 }
 
+#Cours , #Spectacle , #Atelier , #Conference, #Diffusion{
+  color: #feba12;
+}
 .onep{
     width: 22em;
     height: 13em;
