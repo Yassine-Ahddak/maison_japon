@@ -402,6 +402,14 @@ padding: 1em;
     margin-left: 80px;
 }
 
+#commentaire .texte2{
+    font-size: 18px;
+    width: 800px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    
+}
+
 button {
 /* Cette marge supplémentaire représente grosso modo le même espace que celui
     entre les étiquettes et les champs texte */
