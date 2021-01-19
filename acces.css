@@ -360,46 +360,34 @@ h6 {
 #commentaire{
 width: 91%;
 margin: 50px auto;
+
 border: 2px solid white;
 background-color: #131416;
 color: white;
 padding: 1em;
 } 
 
-#commentaire h3{
-    /*color:rgba(219, 29, 29, 0.884);*/
+#commentaire h1{
     color:#db2424;
+    margin-left: 100px;
 }
 
-#commentaire hr{
-background-color: #131416; 
-color: #ffffff; 
-width:100%; 
-text-align: center;
-border:none; 
-border-bottom: dashed #df2a2a 2px;
-
+#commentaire .adresse{
+    color: white;
+    font-size: 22px;
+    margin-left: 100px;
 }
 
-#commentaire .signaler{
-display: flex;
-flex-direction: row;
+#commentaire .adresse1{
+    font-size: 18px;
+    margin-left: 100px;
 }
 
-#commentaire .signaler button{
-background-color: #131416;
-border: 2px solid white;
-color: white;
-padding: 10px;
-margin: 0;
-margin-right: 10px;
-margin-bottom: 10px;
+#commentaire img{
+    width: 1000px;
+    height: 600px;
+    margin-left: 250px;
 }
-
-#commentaire .signaler button:hover{
-opacity: 0.7;
-}
-
 button {
 /* Cette marge supplémentaire représente grosso modo le même espace que celui
     entre les étiquettes et les champs texte */

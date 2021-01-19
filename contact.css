@@ -381,8 +381,13 @@ padding: 1em;
 
 #commentaire .texte1{
     font-size: 18px;
-    width: 800px;
     margin-left: 100px;
+}
+
+#commentaire img{
+    width: 1000px;
+    height: 600px;
+    margin-left: 250px;
 }
 
 #commentaire .texte1 a{
@@ -394,12 +399,6 @@ padding: 1em;
 
 #commentaire .texte1 a:hover{
     opacity: 0.7;
-}
-
-#commentaire ol li{
-    font-size: 18px;
-    width: 800px;
-    margin-left: 80px;
 }
 
 button {
