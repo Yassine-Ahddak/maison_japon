@@ -84,13 +84,13 @@ margin-left: 400px;
 #representation .ligne1 button{
     padding: 5px;
     background-color: rgb(17, 133, 17);
-    border: 2px solid #feba12;
+    border: 2px solid #ffffff;
 }
 
 #representation .ligne1 .indisponible{
     padding: 5px;
     background-color: rgb(199, 31, 31);
-    border: 2px solid #feba12;
+    border: 2px solid #ffffff;
 }
 
 #representation .ligne1 button:hover{
