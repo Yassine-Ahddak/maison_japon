@@ -1,5 +1,6 @@
 /* ma réalisation */
 html, body {
+  height: 100vh;
   /*background: linear-gradient(rgb(219, 219, 219), rgb(219, 219, 219));*/
   /*background-image: linear-gradient(
     rgba(240, 235, 235, 0.25),
