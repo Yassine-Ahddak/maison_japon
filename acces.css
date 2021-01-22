@@ -1,4 +1,3 @@
-/* ma réalisation */
 html, body {
     /*background: linear-gradient(rgb(219, 219, 219), rgb(219, 219, 219));*/
     /*background-image: linear-gradient(
@@ -13,13 +12,6 @@ html, body {
 body::-webkit-scrollbar {
     display: none;
 }
-/*
-button
-{
-border: 0px;
-padding: center;
-margin-left: 20px;
-}*/
 
 #titre
 {
@@ -32,7 +24,7 @@ margin-left: 20px;
     margin-left: 400px;
 }
 
-/*Partie footer */
+                                                        /*Partie footer */
 
 #ma-boite1
 {
@@ -94,7 +86,7 @@ margin-left: 20px;
     opacity: 0.4;
 }
 
-/* partie menu déroulant */
+                                                        /* partie menu déroulant */
 
 nav{
     background-color: #131416;
@@ -134,12 +126,14 @@ nav a{
     /*background: #131416;*/
     /*border-radius: 14px;*/
 }
+
 /*
 nav a:hover{   /*lorsqu'on survole un bouton*//*
 color: rgba(255, 0, 0, 0.884);
 border-bottom: 2px solid red;
 }
 */
+
 .sous2
 {
   font-size: 1.3em;
@@ -178,18 +172,12 @@ nav > ul li:hover .sous2{
 a
 {
     text-decoration: none;
-    color: #00437c;
     transition: color 0.3s ease;
     font-size: 23px;
 }
 
-/*a:hover
-{
-color: #feba12;
-}*/
-/*
-* ...this controls the actual 3 line menu position, the 'burger'...
-*/
+/* Paramètres de position des span du menu burger */
+
 #menuToggle
 {
     display: block;
@@ -200,10 +188,10 @@ color: #feba12;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-    }
-/*
-* ...this will change the touch/click area size...
-*/
+}
+
+/* Pour changer la taille de la zone de click */
+
 #menuToggle input
 {
     display: block;
@@ -213,17 +201,13 @@ color: #feba12;
     top: -7px;
     left: -5px;
     cursor: pointer;
-
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-
+    opacity: 0;
+    z-index: 2; 
     -webkit-touch-callout: none;
-    }
+}
 
-/*
-* Just a quick hamburger
-    ...this controls the physical size of the 3 lines in the burger...
-*/
+/* Paramètres des span du menu burger */
+
 #menuToggle span
 {
     display: block;
@@ -231,14 +215,10 @@ color: #feba12;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #ffffff; 
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
-
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
@@ -254,10 +234,6 @@ color: #feba12;
     transform-origin: 0% 100%;
 }
 
-/* 
-* Transforms all the slices of hamburger
-* into a crossmark.
-*/
 #menuToggle input:checked ~ span
 {
     opacity: 1;
@@ -265,29 +241,19 @@ color: #feba12;
     background: #ffffff;
 }
 
-/*
-* But let's hide the middle one.
-*/
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
-* Oh yeah and the last one should go the other direction
-*/
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
-* Make this absolute positioned
-* at the top left of the screen
+/* Paramètres de la fenêtre du menu burger */
 
-    ...This is the burgers popup location on your webpage, as well as the size and colour of the popup...
-*/
 #menu
 {
     position: absolute;
@@ -298,14 +264,10 @@ color: #feba12;
     background: #131416;
     border-style:groove;
     border-color: #ffffff;
-
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
-
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
@@ -324,10 +286,8 @@ color: #feba12;
   color: rgb(206, 26, 26);
 }
 
+/* Transition menu burger vers la gauche */
 
-/*
-* And let's slide it in from the left
-*/
 #menuToggle input:checked ~ ul
 {
     transform: none;
